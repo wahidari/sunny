@@ -1,0 +1,184 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 32px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+.btn-outline-warning {
+  color: #fb8f1d !important;
+  border-color: #fb8f1d !important;
+}
+
+.btn-outline-warning:hover {
+  color: #fff !important;
+  background-color: #fb8f1d;
+  border-color: #fb8f1d;
+}
+
+.btn-outline-warning:focus,
+.btn-outline-warning:active {
+  color: #fff !important;
+  background-color: #fb8f1d !important;
+  border-color: #fb8f1d !important;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #fb8f1d;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #f17d00;
+}
+
+.btn-warning:active,
+.btn-warning:focus {
+  color: #fff !important;
+  background-color: #f17d00 !important;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Mulish", sans-serif;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.nav-link.active {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #202336;
+  font-size: 64px;
+}
+
+.hero h5 {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  color: #202336;
+  font-size: 22px;
+}
+
+.hero {
+  background: url(../img/bg-hero.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  -o-background-size: cover;
+  background-position: 8% 8%;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #202336;
+  font-size: 40px;
+}
+
+.explore {
+  background: url(../img/bg-explore.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  -o-background-size: cover;
+  background-position: 80% 20%;
+}
+
+.explore p {
+    font-size: 17px;
+    color: #7D7987;
+}
+
+.a-warning {
+    color: #fb8f1d;
+}
+
+.a-warning:hover {
+    color: #f17d00;
+}
+
+h6 {
+    font-size: 17px;
+}
+
+.destinations {
+  background: url(../img/bg-destinations.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  -o-background-size: cover;
+  background-position: 10% 50%;
+}
+
+.destinations p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: -1px;
+  left: 10px;
+}
+
+.rounded-right {
+    border-top-right-radius: 6px;
+}
+
+.bg-guide {
+  background: url(../img/bg-guide.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  -o-background-size: cover;
+  background-position: 50% 40%;
+}
+
+.a-danger {
+    color: #848484;
+}
+
+.a-danger:hover {
+    color: #f17d00;
+}
+
+.testimonial {
+  background: url(../img/testimonial.svg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  -o-background-size: cover;
+  background-position: 80% 0%;
+}
+
+.carousel-control-next {
+    right: -100px !important;
+}
