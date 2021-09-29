@@ -58,6 +58,15 @@
   background-color: #f17d00 !important;
 }
 
+.btn-float {
+    z-index: 1000;
+    padding: 4px 8px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
 body {
   scroll-behavior: smooth;
   font-family: "Mulish", sans-serif;
